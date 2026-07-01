@@ -3,7 +3,7 @@ title: "MACRO ECONOMICS: The Complete Guide to Economic Data Releases"
 subtitle: "How every red and orange folder event is collected, what it means, and how it moves markets."
 date: "2026-04-26"
 author: "Daniel San"
-url: "https://open.substack.com/pub/danielsan2401/p/macro-economics-the-complete-guide
+url: "https://open.substack.com/pub/danielsan2401/p/macro-economics-the-complete-guide"
 ---
 
 # Introduction: Why the Economic Calendar Is Your Edge

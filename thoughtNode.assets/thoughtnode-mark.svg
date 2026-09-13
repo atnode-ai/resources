@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="20 20 480 394" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ThoughtNode logo">
+<defs>
+<filter id="gBig" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="gSm" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+<radialGradient id="ambM" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FF2E9E" stop-opacity=".26"/><stop offset="100%" stop-color="#FF2E9E" stop-opacity="0"/></radialGradient>
+<radialGradient id="ambC" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#14E9DB" stop-opacity=".22"/><stop offset="100%" stop-color="#14E9DB" stop-opacity="0"/></radialGradient>
+<linearGradient id="wordGrad" gradientUnits="userSpaceOnUse" x1="97" y1="0" x2="863" y2="0"><stop offset="0%" stop-color="#FF3DA6"/><stop offset="40%" stop-color="#DE6BE4"/><stop offset="70%" stop-color="#86CDEE"/><stop offset="100%" stop-color="#3BF0E2"/></linearGradient>
+<linearGradient id="wordCore" gradientUnits="userSpaceOnUse" x1="97" y1="0" x2="863" y2="0"><stop offset="0%" stop-color="#FFE6F6"/><stop offset="46%" stop-color="#F8EAFF"/><stop offset="100%" stop-color="#CFFFFA"/></linearGradient>
+<g id="left" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M252 56C218 54 190 62 168 78C150 72 128 82 116 100C92 116 72 146 66 180C58 218 68 258 92 288C108 308 128 322 146 330C140 346 142 362 156 372C180 380 212 372 232 360C240 356 246 352 252 350Z"/><path d="M240 84C212 78 188 90 174 108C160 126 150 140 130 152C112 163 100 180 96 200C92 218 96 232 104 244"/><path d="M244 118C222 112 202 124 190 142C178 160 166 172 150 184C134 196 124 210 122 228C120 244 124 256 132 266"/><path d="M100 266C112 286 130 302 152 312C172 321 196 328 214 336"/><path d="M186 238C204 236 214 250 206 262C198 272 184 270 180 260"/></g>
+<g id="rightArt" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M252 56C218 54 190 62 168 78C150 72 128 82 116 100C92 116 72 146 66 180C58 218 68 258 92 288C108 308 128 322 146 330C140 346 142 362 156 372C180 380 212 372 232 360C240 356 246 352 252 350Z"/><path d="M252 100H176q-24 0-24 24V152q0 24-24 24H108"/><path d="M252 300H196q-24 0-24 24V330"/><path d="M252 220H186q-26 0-26 26V246q0 24-24 24H104"/></g>
+<g id="rightDots"><circle cx="100" cy="176" r="8"/><circle cx="172" cy="340" r="8"/><circle cx="96" cy="270" r="8"/></g>
+</defs>
+<rect x="20" y="20" width="480" height="394" fill="#05060B"/>
+<ellipse cx="200" cy="230" rx="330" ry="290" fill="url(#ambM)"/>
+<ellipse cx="400" cy="250" rx="340" ry="300" fill="url(#ambC)"/>
+<g><use href="#left" stroke="#FF2E9E" stroke-width="15.8" opacity=".45" filter="url(#gBig)"/><use href="#left" stroke="#FF2E9E" stroke-width="7.2" filter="url(#gSm)"/><use href="#left" stroke="#FFD2EE" stroke-width="2.3"/></g>
+<g transform="translate(520,0) scale(-1,1)"><use href="#rightArt" stroke="#14E9DB" stroke-width="15.8" opacity=".45" filter="url(#gBig)"/><use href="#rightArt" stroke="#14E9DB" stroke-width="7.2" filter="url(#gSm)"/><use href="#rightArt" stroke="#CFFFFA" stroke-width="2.3"/><g fill="#14E9DB" filter="url(#gSm)"><circle cx="100" cy="176" r="8"/><circle cx="172" cy="340" r="8"/><circle cx="96" cy="270" r="8"/></g></g>
+</svg>
